@@ -1,0 +1,74 @@
+/* styles.css */
+@import "tailwind utilities";
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/utilities';
+
+/* Reset de algunos estilos por defecto */
+/* BEGIN: Reset de algunos estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* END: Reset de algunos estilos por defecto */
+ 
+/* Estilo básico para el cuerpo del documento */
+/* BEGIN: Estilo básico para el cuerpo del documento */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+/* END: Estilo básico para el cuerpo del documento */
+ 
+/* Encabezado principal */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+ 
+/* Navegación principal */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: #555;
+}
+ 
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+ 
+/* Pie de página */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+ 
+/* Clases auxiliares */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ 
+.text-center {
+    text-align: center;
+
+}
